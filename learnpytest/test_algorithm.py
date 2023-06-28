@@ -11,7 +11,7 @@ def unsorted_list():
 
 def test_bubble_sort(unsorted_list):
     s1 = bubble_sort(unsorted_list)
-    assert s1 == [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    assert s1 == [1, 2, 3, 4, 5, 6, 7,8, 9]
 
 
 def test_selection_sort(unsorted_list):
